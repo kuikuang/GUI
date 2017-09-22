@@ -129,6 +129,7 @@ public class StudentManage {
         Parent child =loader.load();
         AdminStudentInfoManagePaneController adminStu =loader.< AdminStudentInfoManagePaneController>getController();
         adminStu.setData(Integer.valueOf(studengIDSeearch.getText()));
+
         studentManage.getChildren().add(child);
     }
 
